@@ -29,6 +29,8 @@ MSVC++ 5.0  _MSC_VER == 1100
 #define MSC_VER_VS2012	1700
 #define MSC_VER_VS2013	1800
 #define MSC_VER_VS2015	1900
+#define MSC_VER_VS2017	1910
+#define MSC_VER_VS2019	1920
 
 // handle stdbool.h compatibility
 #if !defined(__CYGWIN__) && !defined(__MINGW32__) && !defined(__MINGW64__) && (defined (WIN32) || defined (WIN64) || defined (_WIN32) || defined (_WIN64))
